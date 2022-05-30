@@ -15,6 +15,15 @@ If you're using the application for the first time, you've got to seed the datab
 $ npm run seed:db
 ```
 
+## Entities
+
+```
+User(id , email)
+Product(id,name,price,quantity)
+```
+
+
+
 ## APIs
 
 ```GET localhost:3001/products```		=> [{products}]
